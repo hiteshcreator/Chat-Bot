@@ -1,8 +1,9 @@
 # Getting Started with Create React Chat-Bot App
 
+**Documentation** :- https://lucasbassetti.com.br/react-simple-chatbot/#/docs/installation
+
 **To create a React chat-bot app using the open-source React chat-bot library, follow these steps:**
 
-**Documentation** :- https://lucasbassetti.com.br/react-simple-chatbot/#/docs/installation
 
 **1** Install React if you haven't already. Make sure you're using version 17 because version 18 is not supported.
 
