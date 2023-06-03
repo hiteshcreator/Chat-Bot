@@ -1,3 +1,5 @@
+#Getting Started with Create React Chat-Bot App
+
 **To create a React chat-bot app using the open-source React chat-bot library, follow these steps:**
 
 **1** Install React if you haven't already. Make sure you're using version 17 because version 18 is not supported.
@@ -15,32 +17,3 @@
 ![3](https://github.com/hiteshcreator/Chat-Bot/assets/86715574/06c258ab-fa49-472b-b68e-0d9b9ea63602)
 
 These steps will help you get started with creating a React chat-bot app using the react-simple-chatbot library.
-
-
-# Getting Started with Create React Chat-Bot App
-
-I used open React chat bot Libraray
-
-**# Steps for insatll react chat-bot**
-
-* First install react app and you app version is 17 (**because this is not support react 18 versio**n)
-* second you modify some change in index.js file for Dom
-
---------------------- **index.js** --------------------------
-
-  import React from 'react';
-  import ReactDOM from 'react-dom';
-  import App from './App';
-
-  ReactDOM.render(<App />, document.getElementById('root'))
-
-
----------------------- **End** --------------------------
-
-* Install the react-simple-chatbot with yarn
-
-  ** Command:-** yarn add react-simple-chatbot --save
-
-* Intsall some style pacakge like **styled-components** for modify the style according to your choice
-    
-  ** Command:-** yarn add styled-components
