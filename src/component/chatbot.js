@@ -78,11 +78,9 @@ const chatbot = () => {
   ];
 
   return (
-
     <ThemeProvider theme={theme}>
       <ChatBot steps={steps} headerTitle="Chat Bot" />
     </ThemeProvider>
-
   );
 }
 
