@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+**To create a React chat-bot app using the open-source React chat-bot library, follow these steps:**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**1** Install React if you haven't already. Make sure you're using version 17 because version 18 is not supported.
 
-## Available Scripts
+**2** Modify the index.js file in your React app to include the following changes:
 
-In the project directory, you can run:
+![1](https://github.com/hiteshcreator/Chat-Bot/assets/86715574/7d446f3f-af56-4e32-8e4c-8d1a5fb4f068)
 
-### `npm start`
+**3** Install the react-simple-chatbot library using yarn:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![2](https://github.com/hiteshcreator/Chat-Bot/assets/86715574/484895d2-d7c2-4a54-bb42-8537c094276d)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**4** Optionally, if you want to customize the style of the chat-bot, install the styled-components package:
 
-### `npm test`
+![3](https://github.com/hiteshcreator/Chat-Bot/assets/86715574/06c258ab-fa49-472b-b68e-0d9b9ea63602)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These steps will help you get started with creating a React chat-bot app using the react-simple-chatbot library.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Getting Started with Create React Chat-Bot App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I used open React chat bot Libraray
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**# Steps for insatll react chat-bot**
 
-### `npm run eject`
+* First install react app and you app version is 17 (**because this is not support react 18 versio**n)
+* second you modify some change in index.js file for Dom
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+--------------------- **index.js** --------------------------
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+  import App from './App';
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ReactDOM.render(<App />, document.getElementById('root'))
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---------------------- **End** --------------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Install the react-simple-chatbot with yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ** Command:-** yarn add react-simple-chatbot --save
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Intsall some style pacakge like **styled-components** for modify the style according to your choice
+    
+  ** Command:-** yarn add styled-components
