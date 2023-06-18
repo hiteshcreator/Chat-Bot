@@ -7,6 +7,13 @@ import RefreshIcon from '@mui/icons-material/Refresh';
 const chatbot = () => {
   const refresh = () => window.location.reload(true)
 
+  //*** This function refer to chat history */
+  const handleEnds = ({ steps, values }) => {
+    console.log({steps})
+    console.log(values)
+    // alert(`Chat handleEnd callback! Number: ${values[0]}`);
+  }
+ 
   const steps = [
     {
       id: '1',
@@ -65,7 +72,7 @@ const chatbot = () => {
     {
       id:"next",
       message:"Thanks you for using chat-bot!",
-      trigger:"refresh"
+      trigger: 'refresh',
     },
     {
       id: 'refresh',
@@ -79,7 +86,7 @@ const chatbot = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <ChatBot steps={steps} headerTitle="Chat Bot" />
+      <ChatBot handleEnd={handleEnds} steps={steps} headerTitle="Chat Bot" />
     </ThemeProvider>
   );
 }
